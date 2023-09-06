@@ -1,0 +1,65 @@
+.task-editmodal {
+    display: flex;
+    flex-direction: column;
+    margin: 14px 0;
+    gap: 4px;
+
+    label {
+        font-size: medium;
+        font-weight: 600;
+    }
+
+    .edittask-title {
+        border: none;
+        border-radius: 4px;
+        background-color: rgb(223, 223, 223);
+        outline: none;
+        padding: 6px 8px;
+        color: black;
+        font-size: small;
+        width: 95%;
+    }
+
+    .edittask-title:focus {
+        border: 1px solid black;
+        border-radius: 4px;
+    }
+
+    textarea {
+        border: none;
+        border-radius: 4px;
+        max-width: 95%;
+        min-width: 95%;
+        min-height: 100px;
+        background-color: rgb(223, 223, 223);
+        outline: none;
+        padding: 6px 8px;
+        color: black;
+        font-size: small;
+        width: 95%;
+    }
+
+    textarea:focus {
+        border: 1px solid black;
+        border-radius: 4px;
+    }
+
+    .task-progress {
+        width: 100%;
+        --litters-range: 75%;
+        appearance: none;
+        outline: none;
+        height: 1vmin;
+        border-radius: 0.5vmin;
+        background: linear-gradient(to right, white var(--litters-range), rgba(87, 87, 87, 0.46) var(--litters-range));
+    }
+
+    .task-progress::-webkit-slider-thumb {
+        cursor: pointer;
+        appearance: none;
+        width: 2vmin;
+        height: 2vmin;
+        background: white;
+        border-radius: 50%;
+    }
+}

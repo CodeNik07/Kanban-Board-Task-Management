@@ -1,0 +1,46 @@
+.task-modal {
+    display: flex;
+    flex-direction: column;
+    margin: 14px 0;
+    gap: 2px;
+
+    label {
+        font-size: medium;
+        font-weight: 600;
+    }
+
+    input {
+        border: none;
+        border-radius: 4px;
+        background-color: rgb(223, 223, 223);
+        outline: none;
+        padding: 6px 8px;
+        color: black;
+        font-size: small;
+        width: 95%;
+    }
+
+    input:focus {
+        border: 1px solid black;
+        border-radius: 4px;
+    }
+
+    textarea {
+        border: none;
+        border-radius: 4px;
+        max-width: 95%;
+        min-width: 95%;
+        min-height: 100px;
+        background-color: rgb(223, 223, 223);
+        outline: none;
+        padding: 6px 8px;
+        color: black;
+        font-size: small;
+        width: 95%;
+    }
+
+    textarea:focus {
+        border: 1px solid black;
+        border-radius: 4px;
+    }
+}

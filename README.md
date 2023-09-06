@@ -6,10 +6,10 @@ According to your assignment i have created a Kanban Board Task Management.
 You can simply add task on cliking Add Task Button. Whenever the Progress of task is updated the perticular task is pulled out from the current list and placed according to their actual list
 
 - <p>Webview</p>
-![Webview](https://github.com/CodeNik07/Assignment/blob/main/Images/Webview.PNG)
+![Webview](https://github.com/CodeNik07/Kanban-Board-Task-Management/blob/main/Images/Webview.PNG)
 
 - <p>Mobileview</p>
-<img>![Mobileview](https://github.com/CodeNik07/Assignment/blob/main/Images/Mobileview.PNG)</img>
+<img>![Mobileview](https://github.com/CodeNik07/Kanban-Board-Task-Management/blob/main/Images/Mobileview.PNG)</img>
 
 
 

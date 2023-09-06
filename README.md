@@ -1,4 +1,4 @@
-# Kanban-Task-Management-Tool
+# Kanban Board Task Management
 Live URL = (https://kanban-task-management-tool.netlify.app)
 
 ## About
